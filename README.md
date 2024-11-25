@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Private Equity Search Engine
+
+This project is a Private Equity search engine that utilizes the Perplexity API and their powerful LLaMA language model to provide intelligent search capabilities. The search engine is powered by the `llama-3.1-sonar-huge-128k-online` model, which has 405 billion parameters and a 127,072 token context window.
+
+## Key Features
+
+- **Intelligent Search**: The LLaMA language model powers the search functionality, allowing users to input natural language queries and receive accurate, contextual results.
+- **Comprehensive Database**: The search engine draws data from a wide range of sources to provide users with in-depth information about the private equity industry.
 
 ## Getting Started
 
-First, run the development server:
+To use the Private Equity Search Engine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Visit the [project website](https://eagle-eye-five.vercel.app/).
+2. Enter your search query in the search bar.
+3. Review the search results, which will include relevant information about private equity firms, deals, and industry trends.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you'd like to contribute to the development of the Private Equity Search Engine, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the [repository](https://github.com/your-username/eagle-eye) on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure the app still functions as expected.
+4. Submit a pull request with a detailed description of your changes.
 
-## Learn More
+We welcome contributions from the community to help improve and expand the capabilities of the Private Equity Search Engine.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
