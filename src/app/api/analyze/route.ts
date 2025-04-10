@@ -40,7 +40,7 @@ export async function POST(req: Request) {
                 'Authorization': `Bearer ${PERPLEXITY_API_KEY}`
             },
             body: JSON.stringify({
-                model: "llama-3.1-sonar-huge-128k-online",
+                model: "sonar",
                 messages: [
                     {
                         role: 'system',
